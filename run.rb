@@ -1,5 +1,5 @@
 require 'pry'
-require_relative './run.rb'
+require_relative './dog.rb'
 
 
 # make a few instances of dogs here!
