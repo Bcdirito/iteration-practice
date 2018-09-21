@@ -8,11 +8,24 @@ Read through ALL of the Dog class methods.
 ### STEP 2
 Create a few Dog instances inside of the run.rb file. Use these instances to test the methods out to fully understand what each one is doing.
 
+How to test, ex:
+```
+// in run.rb
+// make instances
+doggo1 = Dog.new('Fido', 10)
+doggo2 = Dog.new('Spark', 5, [doggo1])
+
+// inside binding.pry
+
+Dog.named('Fido') 
+==> #<Dog 0x007qwert12345 @name="Fido" @age=10 @likes=[] >
+```
+
 ### STEP 3
 Start refactoring! The goal of this assignment is to pick a different (and better) iterator than `.each` to accomplish the same result as the original class method.
 
 ### TIPS
-Take a look through the Ruby Enumerable docs [here]!
+If you get stuck, make sure to read up on `.each`, `.map`, `.find`, and `.select` in the Ruby Enumerable docs [here]!
 
 ### BONUS
 Add a few more class methods to the Dog class. How else might we use iteration to manipulate the dog data?
