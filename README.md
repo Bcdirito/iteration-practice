@@ -14,13 +14,13 @@ How to test, ex:
 ```
 // in run.rb
 // make instances
-doggo1 = Dog.new('Fido', 10)
-doggo2 = Dog.new('Spark', 5, [doggo1])
+doggo_scoob = Dog.new('Scooby', 10)
+doggo_scrap = Dog.new('Scrappy', 5, [doggo_scoob])
 
 // inside binding.pry
 
-Dog.named('Fido') 
-==> #<Dog 0x007qwert12345 @name="Fido" @age=10 @likes=[] >
+Dog.named('Scooby') 
+==> #<Dog 0x007qwert12345 @name="Scooby" @age=10 @likes=[] >
 ```
 
 ### STEP 3
