@@ -14,5 +14,8 @@ Start refactoring! The goal of this assignment is to pick a different (and bette
 ### TIPS
 Take a look through the Ruby Enumerable docs [here]!
 
+### BONUS
+Add a few more class methods to the Dog class. How else might we use iteration to manipulate the dog data?
+
 
 [here]: https://ruby-doc.org/core-2.2.3/Enumerable.html
