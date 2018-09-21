@@ -1,11 +1,3 @@
-# The code that follows is a Dog class with a multitude of class methods
-# that filter and transform Dog.all for various purposes. Unfortunately,
-# the author of these methods used .each to accomplish the iteration in
-# all cases, when .map (or .collect), .find, or .select would have been
-# a better choice. Read the code, run it with some test data (create a
-# runner file!) and understand what the methods are doing. Refactor to
-# use a different array method.
-
 class Dog
 
   attr_reader :name, :age, :likes
