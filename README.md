@@ -1,5 +1,7 @@
 # Ruby Roo! Iteration Practice
 
+### Ruh roh! Someone used to `.each` for all of their iteration!
+
 The code found in the Dog.rb file is a Dog class with a multitude of class methods that filter and transform `Dog.all` for various purposes. Unfortunately, the author of these methods used `.each` to accomplish the iteration in all cases, when `.map` (or `.collect`), `.find`, or `.select` would have been a better choice. Read the code, run it with some test data (use run.rb!) and understand what the methods are doing. Refactor to use a different array method.
 
 ### STEP 1
